@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "f8NBn7YO3ks=",
+  "dgSpecHash": "zkeJPR4h6dE=",
   "success": true,
-  "projectFilePath": "D:\\Angular\\New folder\\AngularTraining\\Angular Full Stack App\\FullStackWebAPI\\FullStack.API\\FullStack.API\\FullStack.API.csproj",
+  "projectFilePath": "C:\\Github\\Angular-Full-Stack\\FullStackWebAPI\\FullStack.API\\FullStack.API\\FullStack.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

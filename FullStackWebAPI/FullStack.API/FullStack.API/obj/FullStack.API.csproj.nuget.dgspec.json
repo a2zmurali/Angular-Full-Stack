@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Angular\\New folder\\AngularTraining\\Angular Full Stack App\\FullStackWebAPI\\FullStack.API\\FullStack.API\\FullStack.API.csproj": {}
+    "C:\\Github\\Angular-Full-Stack\\FullStackWebAPI\\FullStack.API\\FullStack.API\\FullStack.API.csproj": {}
   },
   "projects": {
-    "D:\\Angular\\New folder\\AngularTraining\\Angular Full Stack App\\FullStackWebAPI\\FullStack.API\\FullStack.API\\FullStack.API.csproj": {
+    "C:\\Github\\Angular-Full-Stack\\FullStackWebAPI\\FullStack.API\\FullStack.API\\FullStack.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Angular\\New folder\\AngularTraining\\Angular Full Stack App\\FullStackWebAPI\\FullStack.API\\FullStack.API\\FullStack.API.csproj",
+        "projectUniqueName": "C:\\Github\\Angular-Full-Stack\\FullStackWebAPI\\FullStack.API\\FullStack.API\\FullStack.API.csproj",
         "projectName": "FullStack.API",
-        "projectPath": "D:\\Angular\\New folder\\AngularTraining\\Angular Full Stack App\\FullStackWebAPI\\FullStack.API\\FullStack.API\\FullStack.API.csproj",
+        "projectPath": "C:\\Github\\Angular-Full-Stack\\FullStackWebAPI\\FullStack.API\\FullStack.API\\FullStack.API.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\Angular\\New folder\\AngularTraining\\Angular Full Stack App\\FullStackWebAPI\\FullStack.API\\FullStack.API\\obj\\",
+        "outputPath": "C:\\Github\\Angular-Full-Stack\\FullStackWebAPI\\FullStack.API\\FullStack.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
