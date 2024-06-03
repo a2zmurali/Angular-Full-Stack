@@ -6,29 +6,25 @@ import { Route, Router } from '@angular/router';
 @Component({
   selector: 'app-add-employee',
   templateUrl: './add-employee.component.html',
-  styleUrl: './add-employee.component.css'
+  styleUrl: './add-employee.component.css',
 })
-export class AddEmployeeComponent implements OnInit{
-
-  addemployeeRequest : employee = 
-  {
-    id:'',
-    name:'',
-    email:'',
-    phone : 0,
+export class AddEmployeeComponent implements OnInit {
+  addemployeeRequest: employee = {
+    id: '',
+    name: '',
+    email: '',
+    phone: 0,
     salary: 0,
-    department : ''
+    department: '',
   };
-  constructor(private employeeservice:EmployeeService, private router:Router){}
-  ngOnInit(): void {
-    
+  constructor(
+    private employeeservice: EmployeeService,
+    private router: Router
+  ) {}
+  ngOnInit(): void {}
+  addemployee() {
+    this.employeeservice.addEmployee(this.addemployeeRequest).subscribe({
+      next: (employee) => this.router.navigate(['employees']),
+    });
   }
-  addemployee()
-  {
-     this.employeeservice.addEmployee(this.addemployeeRequest).subscribe(
-      {
-        next: (employee) => this.router.navigate(['employees'])
-      });
-  }
-
 }
