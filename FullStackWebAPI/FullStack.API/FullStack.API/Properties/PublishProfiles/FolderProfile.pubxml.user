@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Github\IIS Pubish</_PublishTargetUrl>
+    <History>True|2024-06-04T11:46:02.2130633Z||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="FullStackConnectionString">
+      <Value>server=MURALI-SUGANYA%3bdatabase=FullStackDb%3bTrusted_Connection=true</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="FullStack.API.Data.FullStackDBContext">
+      <Value>server=MURALI-SUGANYA%3bdatabase=FullStackDb%3bTrusted_Connection=true</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

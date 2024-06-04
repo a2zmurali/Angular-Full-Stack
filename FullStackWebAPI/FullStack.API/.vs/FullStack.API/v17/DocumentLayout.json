@@ -3,28 +3,8 @@
   "WorkspaceRootPath": "C:\\Github\\Angular-Full-Stack\\FullStackWebAPI\\FullStack.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7FEA55E7-1870-401A-9DF1-C98004503898}|FullStack.API\\FullStack.API.csproj|c:\\github\\angular-full-stack\\fullstackwebapi\\fullstack.api\\fullstack.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FEA55E7-1870-401A-9DF1-C98004503898}|FullStack.API\\FullStack.API.csproj|solutionrelative:fullstack.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FEA55E7-1870-401A-9DF1-C98004503898}|FullStack.API\\FullStack.API.csproj|c:\\github\\angular-full-stack\\fullstackwebapi\\fullstack.api\\fullstack.api\\fullstack.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{7FEA55E7-1870-401A-9DF1-C98004503898}|FullStack.API\\FullStack.API.csproj|solutionrelative:fullstack.api\\fullstack.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7FEA55E7-1870-401A-9DF1-C98004503898}|FullStack.API\\FullStack.API.csproj|c:\\github\\angular-full-stack\\fullstackwebapi\\fullstack.api\\fullstack.api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FEA55E7-1870-401A-9DF1-C98004503898}|FullStack.API\\FullStack.API.csproj|solutionrelative:fullstack.api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FEA55E7-1870-401A-9DF1-C98004503898}|FullStack.API\\FullStack.API.csproj|c:\\github\\angular-full-stack\\fullstackwebapi\\fullstack.api\\fullstack.api\\auth\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FEA55E7-1870-401A-9DF1-C98004503898}|FullStack.API\\FullStack.API.csproj|solutionrelative:fullstack.api\\auth\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FEA55E7-1870-401A-9DF1-C98004503898}|FullStack.API\\FullStack.API.csproj|c:\\github\\angular-full-stack\\fullstackwebapi\\fullstack.api\\fullstack.api\\models\\usercredential.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FEA55E7-1870-401A-9DF1-C98004503898}|FullStack.API\\FullStack.API.csproj|solutionrelative:fullstack.api\\models\\usercredential.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FEA55E7-1870-401A-9DF1-C98004503898}|FullStack.API\\FullStack.API.csproj|c:\\github\\angular-full-stack\\fullstackwebapi\\fullstack.api\\fullstack.api\\models\\members.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FEA55E7-1870-401A-9DF1-C98004503898}|FullStack.API\\FullStack.API.csproj|solutionrelative:fullstack.api\\models\\members.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FullStack.API",
-              "DocumentMoniker": "C:\\Github\\Angular-Full-Stack\\FullStackWebAPI\\FullStack.API\\FullStack.API\\FullStack.API.csproj",
-              "RelativeDocumentMoniker": "FullStack.API\\FullStack.API.csproj",
-              "ToolTip": "C:\\Github\\Angular-Full-Stack\\FullStackWebAPI\\FullStack.API\\FullStack.API\\FullStack.API.csproj",
-              "RelativeToolTip": "FullStack.API\\FullStack.API.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-04T07:25:55.997Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Github\\Angular-Full-Stack\\FullStackWebAPI\\FullStack.API\\FullStack.API\\Program.cs",
-              "RelativeDocumentMoniker": "FullStack.API\\Program.cs",
-              "ToolTip": "C:\\Github\\Angular-Full-Stack\\FullStackWebAPI\\FullStack.API\\FullStack.API\\Program.cs",
-              "RelativeToolTip": "FullStack.API\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T07:26:51.614Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Auth.cs",
-              "DocumentMoniker": "C:\\Github\\Angular-Full-Stack\\FullStackWebAPI\\FullStack.API\\FullStack.API\\Auth\\Auth.cs",
-              "RelativeDocumentMoniker": "FullStack.API\\Auth\\Auth.cs",
-              "ToolTip": "C:\\Github\\Angular-Full-Stack\\FullStackWebAPI\\FullStack.API\\FullStack.API\\Auth\\Auth.cs",
-              "RelativeToolTip": "FullStack.API\\Auth\\Auth.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAWwBIAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T07:06:58.048Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "LoginController.cs",
               "DocumentMoniker": "C:\\Github\\Angular-Full-Stack\\FullStackWebAPI\\FullStack.API\\FullStack.API\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "FullStack.API\\Controllers\\LoginController.cs",
               "ToolTip": "C:\\Github\\Angular-Full-Stack\\FullStackWebAPI\\FullStack.API\\FullStack.API\\Controllers\\LoginController.cs",
               "RelativeToolTip": "FullStack.API\\Controllers\\LoginController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAKAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAA5wCQAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-04T06:44:32.973Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserCredential.cs",
-              "DocumentMoniker": "C:\\Github\\Angular-Full-Stack\\FullStackWebAPI\\FullStack.API\\FullStack.API\\Models\\UserCredential.cs",
-              "RelativeDocumentMoniker": "FullStack.API\\Models\\UserCredential.cs",
-              "ToolTip": "C:\\Github\\Angular-Full-Stack\\FullStackWebAPI\\FullStack.API\\FullStack.API\\Models\\UserCredential.cs",
-              "RelativeToolTip": "FullStack.API\\Models\\UserCredential.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T06:44:03.046Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Members.cs",
-              "DocumentMoniker": "C:\\Github\\Angular-Full-Stack\\FullStackWebAPI\\FullStack.API\\FullStack.API\\Models\\Members.cs",
-              "RelativeDocumentMoniker": "FullStack.API\\Models\\Members.cs",
-              "ToolTip": "C:\\Github\\Angular-Full-Stack\\FullStackWebAPI\\FullStack.API\\FullStack.API\\Models\\Members.cs",
-              "RelativeToolTip": "FullStack.API\\Models\\Members.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T06:42:35.855Z",
               "EditorCaption": ""
             }
           ]

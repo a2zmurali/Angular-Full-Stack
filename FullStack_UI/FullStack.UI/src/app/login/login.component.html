@@ -1,0 +1,18 @@
+ <div class="login-wrapper container">
+  <div class="card">
+    <div class="card-body">
+      <form (ngSubmit)='loginUser()' [formGroup]='loginForm' novalidate class="form">
+        <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+
+        <label for="inputlogin" class="sr-only">Login </label>
+        <input formControlName='UserName' type="text" class="form-control" placeholder="Enter UserName" />
+
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input formControlName='Password' type="password" class="form-control" placeholder="Enter Password" />
+        <button [disabled]='loginForm.invalid' class="btn btn-primary">Login</button>
+
+
+      </form>
+    </div>
+  </div>
+</div>
