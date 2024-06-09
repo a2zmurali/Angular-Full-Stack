@@ -4,12 +4,14 @@ import { EmployeesListComponent } from './components/Employess/employees-list/em
 import { AddEmployeeComponent } from './components/Employess/add-employee/add-employee.component';
 import { EditEmployeeComponent } from './components/Employess/edit-employee/edit-employee.component';
 import { LoginComponent } from './login/login.component';
+import { authguardGuard } from './Services/authguard.guard';
 
 const routes: Routes = [
-  {path: '',component:EmployeesListComponent},
-  {path : 'employees',component:EmployeesListComponent},
-  {path:'add-employee',component:AddEmployeeComponent},
-  {path:'employees/edit/:id',component:EditEmployeeComponent},
+
+  {path:'',component:EmployeesListComponent,canActivate: [authguardGuard]},
+  {path:'employees',component:EmployeesListComponent,canActivate: [authguardGuard]},
+  {path:'add-employee',component:AddEmployeeComponent,canActivate: [authguardGuard]},
+  {path:'employees/edit/:id',component:EditEmployeeComponent,canActivate: [authguardGuard]},
   {path:'login',component:LoginComponent},
 ];
 

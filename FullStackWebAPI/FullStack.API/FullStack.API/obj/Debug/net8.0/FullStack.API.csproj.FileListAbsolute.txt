@@ -136,3 +136,9 @@ C:\Github\Angular-Full-Stack\FullStackWebAPI\FullStack.API\FullStack.API\bin\Deb
 C:\Github\Angular-Full-Stack\FullStackWebAPI\FullStack.API\FullStack.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Github\Angular-Full-Stack\FullStackWebAPI\FullStack.API\FullStack.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Github\Angular-Full-Stack\FullStackWebAPI\FullStack.API\FullStack.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Github\Angular-Full-Stack\FullStackWebAPI\FullStack.API\FullStack.API\bin\Debug\net8.0\System.Web.Cors.dll
+C:\Github\Angular-Full-Stack\FullStackWebAPI\FullStack.API\FullStack.API\bin\Debug\net8.0\System.Net.Http.Formatting.dll
+C:\Github\Angular-Full-Stack\FullStackWebAPI\FullStack.API\FullStack.API\bin\Debug\net8.0\System.Web.Http.dll
+C:\Github\Angular-Full-Stack\FullStackWebAPI\FullStack.API\FullStack.API\bin\Debug\net8.0\System.Web.Http.Cors.dll
+C:\Github\Angular-Full-Stack\FullStackWebAPI\FullStack.API\FullStack.API\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Github\Angular-Full-Stack\FullStackWebAPI\FullStack.API\FullStack.API\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll

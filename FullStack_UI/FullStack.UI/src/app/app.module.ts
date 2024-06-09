@@ -5,11 +5,12 @@ import {ReactiveFormsModule} from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { EmployeesListComponent } from './components/Employess/employees-list/employees-list.component';
-import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { HTTP_INTERCEPTORS, HttpClient, HttpClientModule } from '@angular/common/http';
 import { AddEmployeeComponent } from './components/Employess/add-employee/add-employee.component';
 import { FormGroup, FormsModule } from '@angular/forms';
 import { EditEmployeeComponent } from './components/Employess/edit-employee/edit-employee.component';
 import { LoginComponent } from './login/login.component';
+import { AuthInterceptor } from './Services/AuthInterceptor.interceptor';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,9 @@ import { LoginComponent } from './login/login.component';
     FormsModule,
     ReactiveFormsModule
   ],
-  providers: [],
+  providers: [{
+    provide: HTTP_INTERCEPTORS, useClass: AuthInterceptor, multi: true
+  }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

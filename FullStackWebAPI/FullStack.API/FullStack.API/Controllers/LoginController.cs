@@ -22,6 +22,7 @@ namespace FullStack.API.Controllers
         }
       
         [HttpGet]
+        [AllowAnonymous]
         public IEnumerable<Members> AllMembers()
         {
             return lstMember;
@@ -41,7 +42,7 @@ namespace FullStack.API.Controllers
             var token = jwtAuth.Authentication(userCredential.UserName, userCredential.Password);
             if (token == null)
                 return Unauthorized();
-            return Ok(token);
+            return Ok( new { token = token });
 
         }
 

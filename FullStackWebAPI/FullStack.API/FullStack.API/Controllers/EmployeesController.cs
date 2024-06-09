@@ -1,12 +1,17 @@
 ﻿using FullStack.API.Data;
 using FullStack.API.Models;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Web.Http.Cors;
+using Microsoft.AspNetCore.Authorization;
 
 namespace FullStack.API.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("api/[controller]")]
+   
     public class EmployeesController : Controller
     {
         private readonly FullStackDBContext _fullStackDBContext;

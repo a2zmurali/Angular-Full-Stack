@@ -2,6 +2,7 @@ import { AuthService } from './../shared/auth.service';
 import { Component, OnInit } from '@angular/core';
 import {FormArray, FormBuilder, FormControl, FormGroup, Validators} from '@angular/forms';
 import { UserCredential } from '../Modles/UserCredential';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-login',
@@ -12,7 +13,7 @@ export class LoginComponent implements OnInit {
 
   loginForm: FormGroup;
 
-  constructor(private ff : FormBuilder ,private AuthService:AuthService){
+  constructor(private ff : FormBuilder ,private AuthService:AuthService,private route:Router){
     this.loginForm= this.ff.group({
       UserName: [null, [Validators.required, Validators.minLength(4)]],
       Password: [null, [Validators.required, Validators.maxLength(8)]]
@@ -32,11 +33,13 @@ export class LoginComponent implements OnInit {
    this.AuthService.authenticate(this.loginForm.value).subscribe(
     {
       next:(response)=>{
+        console.log(response);
         const token = response;
-        localStorage.setItem("jwt", token);
-        //sessionStorage.setItem("token",token);
-       // sessionStorage.setItem("token",token);
-       // console.log(sessionStorage.getItem('token'));
+
+        sessionStorage.setItem("token",token);
+        this.AuthService.LoggedIn(true);
+        this.route.navigate(['/employees']);
+
       },
       error:(err)=>console.log(err),
       complete:()=>console.log("login processed")

@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { UserCredential } from '../Modles/UserCredential';
 import { environment } from '../../environments/environment.development';
-import { Observable, map, tap } from 'rxjs';
+import { BehaviorSubject, Observable, map, tap } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
 
 @Injectable({
@@ -17,6 +17,27 @@ export class AuthService {
     return this.http.post<{token:string}>(this.baseUrl+ 'api/Login/Auth',loginRequest)
     .pipe(map((response)=>response.token));
   }
+
+  private dataSubjectLogin = new BehaviorSubject<boolean>(false);
+
+  IsLoggedin$ = this.dataSubjectLogin.asObservable();
+
+  LoggedIn(newValue:boolean)
+  {
+        this.dataSubjectLogin.next(true);
+        this.IsLoggedIn();
+  }
+  LoggedOut(newValue:boolean)
+  {
+    this.dataSubjectLogin.next(false);
+    sessionStorage.clear();
+  }
+
+
+  IsLoggedIn(){
+    return !!sessionStorage.getItem("token")
+  }
+
 
 
 

@@ -136,3 +136,9 @@ C:\Github\Angular-Full-Stack\FullStackWebAPI\FullStack.API\FullStack.API\obj\Rel
 C:\Github\Angular-Full-Stack\FullStackWebAPI\FullStack.API\FullStack.API\obj\Release\net8.0\FullStack.API.pdb
 C:\Github\Angular-Full-Stack\FullStackWebAPI\FullStack.API\FullStack.API\obj\Release\net8.0\FullStack.API.genruntimeconfig.cache
 C:\Github\Angular-Full-Stack\FullStackWebAPI\FullStack.API\FullStack.API\obj\Release\net8.0\ref\FullStack.API.dll
+C:\Github\Angular-Full-Stack\FullStackWebAPI\FullStack.API\FullStack.API\bin\Release\net8.0\System.Web.Cors.dll
+C:\Github\Angular-Full-Stack\FullStackWebAPI\FullStack.API\FullStack.API\bin\Release\net8.0\System.Net.Http.Formatting.dll
+C:\Github\Angular-Full-Stack\FullStackWebAPI\FullStack.API\FullStack.API\bin\Release\net8.0\System.Web.Http.dll
+C:\Github\Angular-Full-Stack\FullStackWebAPI\FullStack.API\FullStack.API\bin\Release\net8.0\System.Web.Http.Cors.dll
+C:\Github\Angular-Full-Stack\FullStackWebAPI\FullStack.API\FullStack.API\bin\Release\net8.0\Newtonsoft.Json.dll
+C:\Github\Angular-Full-Stack\FullStackWebAPI\FullStack.API\FullStack.API\bin\Release\net8.0\Newtonsoft.Json.Bson.dll

@@ -6,6 +6,10 @@ C:\Github\Angular-Full-Stack\FullStackWebAPI\FullStack.API\FullStack.API\obj\Rel
 C:\Github\Angular-Full-Stack\FullStackWebAPI\FullStack.API\FullStack.API\obj\Release\net8.0\PubTmp\Out\FullStack.API.pdb
 C:\Github\Angular-Full-Stack\FullStackWebAPI\FullStack.API\FullStack.API\obj\Release\net8.0\PubTmp\Out\Azure.Core.dll
 C:\Github\Angular-Full-Stack\FullStackWebAPI\FullStack.API\FullStack.API\obj\Release\net8.0\PubTmp\Out\Azure.Identity.dll
+C:\Github\Angular-Full-Stack\FullStackWebAPI\FullStack.API\FullStack.API\obj\Release\net8.0\PubTmp\Out\System.Web.Cors.dll
+C:\Github\Angular-Full-Stack\FullStackWebAPI\FullStack.API\FullStack.API\obj\Release\net8.0\PubTmp\Out\System.Net.Http.Formatting.dll
+C:\Github\Angular-Full-Stack\FullStackWebAPI\FullStack.API\FullStack.API\obj\Release\net8.0\PubTmp\Out\System.Web.Http.dll
+C:\Github\Angular-Full-Stack\FullStackWebAPI\FullStack.API\FullStack.API\obj\Release\net8.0\PubTmp\Out\System.Web.Http.Cors.dll
 C:\Github\Angular-Full-Stack\FullStackWebAPI\FullStack.API\FullStack.API\obj\Release\net8.0\PubTmp\Out\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Github\Angular-Full-Stack\FullStackWebAPI\FullStack.API\FullStack.API\obj\Release\net8.0\PubTmp\Out\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Github\Angular-Full-Stack\FullStackWebAPI\FullStack.API\FullStack.API\obj\Release\net8.0\PubTmp\Out\Microsoft.Data.SqlClient.dll
@@ -24,6 +28,8 @@ C:\Github\Angular-Full-Stack\FullStackWebAPI\FullStack.API\FullStack.API\obj\Rel
 C:\Github\Angular-Full-Stack\FullStackWebAPI\FullStack.API\FullStack.API\obj\Release\net8.0\PubTmp\Out\Microsoft.OpenApi.dll
 C:\Github\Angular-Full-Stack\FullStackWebAPI\FullStack.API\FullStack.API\obj\Release\net8.0\PubTmp\Out\Microsoft.SqlServer.Server.dll
 C:\Github\Angular-Full-Stack\FullStackWebAPI\FullStack.API\FullStack.API\obj\Release\net8.0\PubTmp\Out\Microsoft.Win32.SystemEvents.dll
+C:\Github\Angular-Full-Stack\FullStackWebAPI\FullStack.API\FullStack.API\obj\Release\net8.0\PubTmp\Out\Newtonsoft.Json.dll
+C:\Github\Angular-Full-Stack\FullStackWebAPI\FullStack.API\FullStack.API\obj\Release\net8.0\PubTmp\Out\Newtonsoft.Json.Bson.dll
 C:\Github\Angular-Full-Stack\FullStackWebAPI\FullStack.API\FullStack.API\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
 C:\Github\Angular-Full-Stack\FullStackWebAPI\FullStack.API\FullStack.API\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Github\Angular-Full-Stack\FullStackWebAPI\FullStack.API\FullStack.API\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
